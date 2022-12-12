@@ -1,0 +1,36 @@
+.CounterSectionContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-left:auto;
+    margin-right: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.element{
+    display: flex;
+    flex-direction:column;
+    gap: 10px;
+}
+
+
+.upperSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight:600;
+    gap:10px;
+}
+.bottom{
+    font-size: 1rem;
+    line-height: 36px;
+    color: grey;
+    text-align: center;
+}
+@media only screen and (max-width: 600px){
+    .CounterSectionContainer{
+        flex-direction: column;
+    }
+}

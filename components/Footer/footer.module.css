@@ -1,0 +1,80 @@
+.FooterContainer{
+    display: flex;
+    flex-direction: column;
+    padding-top: 200px;
+    gap: 50px;
+    min-height: 600px;
+    position: fixed;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    bottom:0;
+    z-index: -1;
+    background-color: rgb(2, 52, 71);
+}
+
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logoArea{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.BtnContainer{
+    display: flex;
+    justify-content: center;
+}
+.upper{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.btn{
+    display: inline-block;
+    vertical-align: middle;
+    background-color: rgb(69, 170, 242);
+    color:rgb(255, 255, 255);
+    padding: 15px 70px;
+    border-radius: 10px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.downloadTo{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.resources{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.resourcesHeading{
+    font-size:20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.resourcesItem{
+font-size: 15px;
+font-weight: 500;
+}
+.anywhere{
+    font-size: 25px;
+    font-weight: 500;
+}
+.socialMediaLink{
+    display: flex;
+    gap:10px;
+}
+@media only screen and (max-width: 600px){
+    .FooterContainer{
+        padding: 500px 0px 20px 10px !important;
+    }
+    .upper{ 
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,38 @@
+.CarouselElementContainer{
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    color: black;
+    border-radius: 10px;
+}
+.heading{
+    display: flex;
+    gap: 5px;
+    font-size: 20px;
+    font-weight:600 ;
+
+}
+.subHeading{
+    font-size: 15px;
+    font-weight: 500;
+    float: left;
+    margin-top: 10px;
+
+}
+.Level{
+    font-size: 10px;
+    font-weight: 400;
+}
+.rating{
+    display: flex;
+    gap:5px;
+    font-size: 10px;
+    font-weight: 400;
+}
+.lower{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

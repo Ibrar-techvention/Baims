@@ -1,0 +1,371 @@
+
+
+{
+  "explore": "Explore",
+  "inputLabel": "Search for subject or teeacher &...",
+  "login": "Login",
+  "study": "Study Anywhere ",
+  "loremText": "In one place, you will explore high school and university classes that will match your needs. Delivered by your favorite teachers.",
+  "country": "Country",
+  "kuwait": "Kuwait",
+  "stage": "Study Stage",
+  "clgGrade": "College or grade",
+  "search": "Search",
+  "highQuality": "High-Quality Videos!",
+  "videoText": "High-quality recorded videos for your high school and university s that were created to match your curriculum.",
+  "exBtn":"Explore course",
+  "summaries":"Summaries & Notes!",
+  "summaryText":"Get free solved and unsolved notes with some of our s. You have the option to print them as well.",
+  "liveSession!":"Live Sessions!",
+  "sessionText":"Communicate with your favorite teachers through live sessions where you can interact freely and get your questions answered.",
+   "teachers":"Teachers You Already Love",
+   "s":" Who is the best teacher for this subject",
+   "ratingText":"  Thats our main question to students when we are looking for teachers, we take their words and recommendations and we work very hard to bring you the top teachers that you already love learning from.",
+   "anyMan":"Any Man",
+   "five":"5",
+   "exploreCourses":"Explore popular courses",
+   "anyDevice":"From Any Device You Like",
+   "deviceText":"In order to provide you with an extraordinary experience in learning, we support all platforms such as iOS, Android and web browsers so you can study from your favorite device. Not only that, you can also AirPlay it to your TV." ,
+    "coursesSub":"Courses & Subjects",
+    "teacher":"Teachers",
+    "student":"Student",
+    "lecture":"Lecture Views",
+   "joinStudent":"Join as Student",
+   "resource":"Resources",
+   "about":"About",
+   "terms":"Terms & Conditions",
+   "inTouch":"Get in Touch",
+   "contactUs":"Contact Us",
+    "stageData" : [
+    {
+      "value": "University",
+      "label": "University"
+    },
+    {
+      "value": "High School",
+      "label": "High School"
+    },
+    {
+      "value": "Other Courses",
+      "label": "Other Courses"
+    }
+  ], 
+ "teacherData" : [
+  {
+    "value": "Teacher",
+    "label": "Teacher"
+  },
+  {
+    "value": "Teacher",
+    "label": "Teacher"
+  },
+  {
+    "value": "Teacher",
+    "label": "Teacher"
+  }
+],  
+  "subjectss": [
+  {
+      "id": 1722,
+      "slug": "adminstrativestatistics207i6h1",
+      "link": "instructor\/V1Ys58jT_U4379964\/adminstrativestatistics207i6h1",
+      "name": "Administrative Statistics",
+      "code":"Stat 207",
+      "label": "\u062e\u0635\u0645 \u0627\u0644\u0645\u062c\u0645\u0648\u0639\u0627\u062a",
+      "color": "#3e86de",
+      "is_light_theme": false,
+      "rating": 4.7,
+      "courses_count": 9,
+      "pricing": {
+          "price": "580",
+          "undiscounted_price": "680",
+          "type": "paid",
+          "currency": "SAR",
+          "has_discount": true,
+          "discount_rate": 15
+      },
+    
+      "image": {
+          "url": "https://baims.s3.eu-central-1.amazonaws.com/2987/_%207e57c2%D8%A7%D9%95%D9%86%D8%AC%D9%84%D9%8A%D8%B2%D9%8A%201%20-%201_.jpg"
+      },
+      "category": {
+          "id": 15,
+          "slug": "KSU",
+          "name": "King Saud University",
+          "short_name": "KSU"
+      },
+      "instructor": {
+          "id": 89422,
+          "name": "\u0645 . \u0647\u062f\u064a\u0631 \u0623\u062d\u0645\u062f",
+          "username": "V1Ys58jT_U4379964",
+          "is_active": false,
+          "profile_picture": {
+              "url": "https:\/\/baims.com\/images\/letterAEName\/24m_copy.png"
+          },
+          "portrait_picture": {
+              "url": null
+          },
+          "bio": "V1Ys58jT_U4379964",
+          "social_media": {
+              "facebook": "",
+              "twitter": "",
+              "instagram": "",
+              "youtube": ""
+          },
+          "basic_statistics": {
+            "countries":"ksa",
+
+              "rating": 5,
+              "reviews_count": 93,
+              "views_count": "1.4M",
+              "subscribers_count": "2.85K",
+              "subjects_count": "12",
+              "videos_count": "1471",
+              "name":"Phy"
+          }
+      }
+  },
+  {
+      "id": 442,
+      "slug": "201oodavlzi1602675977",
+      "link": "instructor\/aljoharh981592081310\/201oodavlzi1602675977",
+      "name": "Principles of Accounting",
+      "code":"Acc 201",
+      "label": "\u062e\u0635\u0645 \u0627\u0644\u0645\u062c\u0645\u0648\u0639\u0627\u062a",
+      "color": "#0b3db4",
+      "is_light_theme": true,
+      "rating": 4.9,
+      "courses_count": 12,
+      "pricing": {
+          "price": "500",
+          "undiscounted_price": "535",
+          "type": "paid",
+          "currency": "SAR",
+          "has_discount": true,
+          "discount_rate": 7
+      },
+      "image": {
+          "url": "https:\/\/baims.s3.eu-central-1.amazonaws.com\/56\/%28000000%29%D9%85%D8%A8%D8%A7%D8%AF%D9%8A%D9%94-%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D8%B3%D8%A8%D8%A9-%D8%A7%D9%84%D9%85%D8%A7%D9%84%D9%8A%D8%A9%C2%A0-%D8%AD%D8%B3%D8%A8-201_.jpg"
+      },
+      "category": {
+          "id": 27,
+          "slug": "PNU",
+          "name": "Princess Nourah  University",
+          "short_name": "PNU"
+      },
+      "instructor": {
+          "id": 57784,
+          "name": "\u0623 . \u0627\u0644\u062c\u0648\u0647\u0631\u0629",
+          "username": "aljoharh981592081310",
+          "is_active": false,
+          "profile_picture": {
+              "url": "https:\/\/s3.eu-central-1.amazonaws.com\/baims\/uploads\/profiles\/1640197540.png"
+          },
+          "portrait_picture": {
+              "url": null
+          },
+          "bio": "aljoharh981592081310",
+          "social_media": {
+              "facebook": "",
+              "twitter": "",
+              "instagram": "",
+              "youtube": ""
+          },
+          "basic_statistics": {
+            "countries":"kw",
+
+              "rating": 5,
+              "reviews_count": 74,
+              "views_count": "905.65K",
+              "subscribers_count": "2.11K",
+              "subjects_count": "12",
+              "videos_count": "890",
+              "name":"Che"
+
+          }
+      }
+  },
+  {
+      "id": 454,
+      "slug": "generalphysics11034cjm0hfj1602",
+      "link": "instructor\/\u062f.\u062d\u0646\u0641\u064a\/generalphysics11034cjm0hfj1602",
+      "name": "General Physics",
+      "code":"Phys 103",
+      "label": "\u062e\u0635\u0645 \u0627\u0644\u0645\u062c\u0645\u0648\u0639\u0627\u062a",
+      "color": "#ff9c00",
+      "is_light_theme": false,
+      "rating": 3.9,
+      "courses_count": 6,
+      "pricing": {
+          "price": "349",
+          "undiscounted_price": "525",
+          "type": "paid",
+          "currency": "SAR",
+          "has_discount": true,
+          "discount_rate": 34
+      },
+      "image": {
+          "url": "https:\/\/baims.s3.eu-central-1.amazonaws.com\/1356\/%289bb8b6%29%D8%A7%D9%84%D9%81%D9%8A%D8%B2%D9%8A%D8%A7%D8%A1-%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D8%A9---%D9%81%D9%8A%D8%B2-103_.jpg"
+      },
+      "category": {
+          "id": 15,
+          "slug": "KSU",
+          "name": "King Saud University",
+          "short_name": "KSU"
+      },
+      "instructor": {
+          "id": 53044,
+          "name": "\u062f.\u0645\u062d\u0645\u062f \u062d\u0646\u0641\u064a",
+          "username": "\u062f.\u062d\u0646\u0641\u064a",
+          "is_active": false,
+          "profile_picture": {
+              "url": "https:\/\/baims.s3.eu-central-1.amazonaws.com\/user-avatars\/8d_copy.png"
+          },
+          "portrait_picture": {
+              "url": null
+          },
+          "bio": "\u062f.\u062d\u0646\u0641\u064a",
+          "social_media": {
+              "facebook": "",
+              "twitter": "",
+              "instagram": "",
+              "youtube": ""
+          },
+          "basic_statistics": {
+              "countries":"ksa",
+                 
+           
+              "rating": 4,
+              "reviews_count": 10,
+              "views_count": "217.73K",
+              "subscribers_count": "2.4K",
+              "subjects_count": "4",
+              "videos_count": "423",
+              "name":"Math"
+
+          }
+      }
+  },
+  {
+      "id": 381,
+      "slug": "account202ehqsllgf1602675976",
+      "link": "instructor\/aljoharh981592081310\/account202ehqsllgf1602675976",
+      "name": "Principles of costing",
+      "code":" Acc 202",
+      "label": "\u062e\u0635\u0645 \u0627\u0644\u0645\u062c\u0645\u0648\u0639\u0627\u062a",
+      "color": "#f9e1b5",
+      "is_light_theme": false,
+      "rating": 4.7,
+      "courses_count": 11,
+      "pricing": {
+          "price": "500",
+          "undiscounted_price": "570",
+          "type": "paid",
+          "currency": "SAR",
+          "has_discount": true,
+          "discount_rate": 12
+      },
+      "image": {
+          "url": "https:\/\/baims.s3.eu-central-1.amazonaws.com\/1365\/%28f9e1b5%29%D9%85%D8%A8%D8%A7%D8%AF%D8%A6-%D8%A7%D9%84%D8%AA%D9%83%D8%A7%D9%84%D9%8A%D9%81-%D9%88%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D8%B3%D8%A8%D8%A9-%D8%A7%D9%84%D8%A5%D8%AF%D8%A7%D8%B1%D9%8A%D8%A9-%D8%AD%D8%B3%D8%A8-202_.jpg"
+      },
+      "category": {
+          "id": 27,
+          "slug": "PNU",
+          "name": "Princess Nourah  University",
+          "short_name": "PNU"
+      },
+      "instructor": {
+          "id": 57784,
+          "name": "\u0623 . \u0627\u0644\u062c\u0648\u0647\u0631\u0629",
+          "username": "aljoharh981592081310",
+          "is_active": false,
+          "profile_picture": {
+              "url": "https:\/\/s3.eu-central-1.amazonaws.com\/baims\/uploads\/profiles\/1640197540.png"
+          },
+          "portrait_picture": {
+              "url": null
+          },
+          "bio": "aljoharh981592081310",
+          "social_media": {
+              "facebook": "",
+              "twitter": "",
+              "instagram": "",
+              "youtube": ""
+          },
+          "basic_statistics": {
+            "countries":"kw",
+
+              "rating": 5,
+              "reviews_count": 74,
+              "views_count": "905.65K",
+              "subscribers_count": "2.11K",
+              "subjects_count": "12",
+              "videos_count": "890",
+              "name":"Cal"
+
+          }
+      }
+  },
+  {
+      "id": 394,
+      "slug": "261llspapmt1602675976",
+      "link": "instructor\/aljoharh981592081310\/261llspapmt1602675976",
+      "name": "Business Statistics",
+      "code":"Econ 261",
+      "label": "\u062e\u0635\u0645 \u0627\u0644\u0645\u062c\u0645\u0648\u0639\u0627\u062a",
+      "color": "#29d0c6",
+      "is_light_theme": true,
+      "rating": 5,
+      "courses_count": 15,
+      "pricing": {
+          "price": "490",
+          "undiscounted_price": "490",
+          "type": "paid",
+          "currency": "SAR",
+          "has_discount": false,
+          "discount_rate": 0
+      },
+      "image": {
+          "url": "https:\/\/baims.s3.eu-central-1.amazonaws.com\/52\/%2829d0c6%29%D8%A7%D9%95%D8%AD%D8%B5%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D9%94%D8%B9%D9%85%D8%A7%D9%84---%D9%82%D8%B5%D8%AF-261_.jpg"
+      },
+      "category": {
+          "id": 27,
+          "slug": "PNU",
+          "name": "Princess Nourah  University",
+          "short_name": "PNU"
+      },
+      "instructor": {
+          "id": 57784,
+          "name": "\u0623 . \u0627\u0644\u062c\u0648\u0647\u0631\u0629",
+          "username": "aljoharh981592081310",
+          "is_active": false,
+          "profile_picture": {
+              "url": "https:\/\/s3.eu-central-1.amazonaws.com\/baims\/uploads\/profiles\/1640197540.png"
+          },
+          "portrait_picture": {
+              "url": null
+          },
+          "bio": "aljoharh981592081310",
+          "social_media": {
+              "facebook": "",
+              "twitter": "",
+              "instagram": "",
+              "youtube": ""
+          },
+          "basic_statistics": {
+            "countries":"ksa",
+              "rating": 5,
+              "reviews_count": 74,
+              "views_count": "905.65K",
+              "subscribers_count": "2.11K",
+              "subjects_count": "12",
+              "videos_count": "890",
+              "name":"Bio"
+
+          }
+      }
+  }
+]
+
+
+}

@@ -1,0 +1,150 @@
+.bannerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  height: 100vh;
+  overflow-y: hidden;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 0;
+}
+.videoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  overflow-y: hidden;
+  position: fixed;
+  top: 0;
+  z-index: -1;
+}
+
+.mainTitle {
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 68px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+
+.subTitle {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: "Poppins";
+  max-width: 60%;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.selectionMenu {
+  background: white;
+  border-radius: 50px;
+  max-width: 100%;
+  width:70%;
+  color: black;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px 20px 40px;
+}
+
+.country {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Poppins";
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 10px;
+}
+.grade {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Poppins";
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 10px;
+  border-left: 1px solid rgb(236, 234, 234);
+}
+.stages {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Poppins";
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 10px;
+  border-left: 1px solid rgb(236, 234, 234);
+}
+.selected {
+  font-size: 16px;
+  font-family: "Poppins";
+  color: rgb(142, 142, 142);
+}
+
+.searchBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  font-family: "Poppins";
+  background: rgb(69, 170, 242);
+  padding: 20px;
+  border-radius: 50px;
+  gap: 20px;
+  cursor: pointer;
+}
+.mobileView {
+  display: none;
+}
+
+.selection {
+  width: 90vw;
+  background-color: rgb(238, 237, 237);
+  padding: 10px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.Bar {
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+  padding: 20px 10px;
+  width: 100%;
+}
+.loginBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 30px;
+  border-radius: 10px;
+  font-weight: 500;
+}
+.left {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+@media only screen and (max-width: 850px) {
+  .bannerContainer {
+    padding: 450px 20px 20px 20px;
+  }
+  .mobileView {
+    display: block;
+  }
+  .selectionMenu {
+    display: none;
+  }
+}

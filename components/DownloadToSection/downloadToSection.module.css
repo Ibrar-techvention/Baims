@@ -1,0 +1,30 @@
+.UpperSection{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.heading{
+    font-size: 30px;
+    font-family: "Poppins";
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.description{
+    line-height: 30px;
+    font-family: "Poppins";
+    font-size: large;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.mainImg{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.downloadBtn{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 10px;
+}

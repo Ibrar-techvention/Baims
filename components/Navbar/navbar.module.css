@@ -1,0 +1,147 @@
+.navbarContainer {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  align-items: center;
+  gap: 30px;
+  padding: 50px 0px;
+  position: fixed;
+  /* background-color: rgb(170, 162, 238); */
+  width: 100%;
+  top: 0;
+  z-index: 100;
+}
+/* .main {
+  width: 50%;
+  margin: auto;
+} */
+.middleSide {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+}
+
+.explore {
+  font-size: 1rem;
+  font-family: "Poppins";
+}
+
+.leftSide {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-left: 50px;
+}
+
+.rightSide {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-right: 50px;
+  font-size: medium;
+  font-family: inherit;
+}
+
+.searchBar {
+  flex: 2;
+  display: flex;
+  background-color: transparent;
+  min-width: 80vh;
+  padding: 10px 20px;
+  appearance: none;
+  color: black;
+  /* color: rgb(255, 255, 255); */
+  transition: all 0.3s ease 0s;
+  gap: 10px;
+  border: 1px solid rgb(118, 118, 118);
+  border-radius: 10px;
+}
+.input {
+  flex: 1;
+  padding: 5px;
+  font-size: medium;
+  font-family: "Poppins";
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+.input::placeholder{
+color: white;
+}
+.languageSelector {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 0px 20px;
+  border-right: 1px solid gray;
+}
+.loginBtn {
+  display: inline-block;
+  vertical-align: middle;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 600;
+  /* background-color: white;
+    color:black; */
+  padding: 15px 30px;
+  border-radius: 10px;
+}
+
+.humburgerIcon {
+  display: none;
+}
+.mobileView {
+  display: none;
+}
+.contentHead {
+  font-size: 20px;
+  font-family: "Poppins";
+  font-weight: 400;
+  color: grey;
+  margin-bottom: 20px;
+}
+.contentBody {
+  display: flex;
+  justify-content: space-between;
+}
+.cross {
+  display: flex;
+  justify-content: flex-end;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.mobileView {
+  display: none;
+  background-color: white;
+  color: black;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  height: 100vh;
+  padding: 30px 20px;
+  border-radius: 20px;
+  z-index: 5;
+  gap: 20px;
+}
+
+@media only screen and (max-width: 850px) {
+  .humburgerIcon {
+    display: block;
+  }
+  .mobileView {
+    display: block;
+  }
+  .searchBar {
+    min-width: 50vh;
+
+  }
+
+  .middleSide {
+    display: none;
+  }
+}

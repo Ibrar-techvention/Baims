@@ -1,0 +1,27 @@
+.RatingSectionContainer{
+    text-align: center;
+}
+.UpperSection{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.heading{
+    font-size: 30px;
+    font-family: "Poppins";
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.description{
+    line-height: 30px;
+    font-family: "Poppins";
+    font-size: large;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.carouselSection{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 50px 10px;
+}

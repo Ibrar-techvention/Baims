@@ -1,0 +1,26 @@
+.RatingSectionCardContainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background: rgb(2, 52, 71);
+    border-radius: 10px;
+    -moz-box-shadow: 0 0 5px rgba(31, 31, 31, 0.12);
+-webkit-box-shadow: 0 0 5px rgb(0 0 0 / 12%);
+box-shadow: 0 0 5px rgb(3, 89, 123);
+margin: 5px;
+}
+.left{
+    display: flex;
+    gap:10px;
+}
+
+.profile{
+    border-radius: 50%;
+}
+.ratings{
+    text-align: left;
+}
+.right{
+    display: flex;
+    align-items: center;
+}

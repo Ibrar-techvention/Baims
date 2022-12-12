@@ -1,0 +1,13 @@
+.ExploreCourseBtnContainer{
+    border-radius: 10px;
+    box-shadow: rgb(0 0 0 / 12%) 0px 0px 15px;
+    transition: background-color 0.2s ease 0s, box-shadow 0.2s ease 0s;
+    cursor: pointer;
+    width: 200px;
+    padding: 15px 0px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;   
+}
