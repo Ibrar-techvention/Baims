@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 import ExploreCourseBtn from '../ExploreCourseBtn';
 import style from './videoSection.module.css';
@@ -14,6 +15,7 @@ const VideoSection = ({ title, description, mainImg, secondImg, video, mainImgWi
                 </div>
                 <div className={style.heading}>{title}</div>
                 <div className={style.body}>{description}</div>
+                <Link href="./home">
                 <div>
                     {
                         btn ?
@@ -25,6 +27,7 @@ const VideoSection = ({ title, description, mainImg, secondImg, video, mainImgWi
                     }
 
                 </div>
+                </Link>
             </div>
             <div className={style.RightSection}>
                 {video ?

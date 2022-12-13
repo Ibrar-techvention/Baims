@@ -214,6 +214,12 @@ align-items: center;
   .heading{
     text-align: center;
   }
+  .prevBtn{
+    display: none;
+  }
+  .nextBtn{
+    display: none;
+  }
 }
 @media screen and (max-width: 960px) {
   .main {
@@ -228,6 +234,12 @@ align-items: center;
     border-radius: 0rem;
     width: 100%;
   }
+  .prevBtn{
+    display: none;
+  }
+  .nextBtn{
+    display: none;
+  }
 }
 @media screen and (max-width: 768px) {
   .imgData{
@@ -241,7 +253,14 @@ align-items: center;
   .mobileMargin{
     margin-bottom: 1rem;
   }
+  .prevBtn{
+    display: none;
+  }
+  .nextBtn{
+    display: none;
+  }
   .heading{
     text-align: center;
+    display: flex;
   }
 }
