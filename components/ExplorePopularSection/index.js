@@ -111,10 +111,11 @@ const ExplorePopularSection = ({}) => {
         </div>
     
       </div>
-              
+              <Link href="./home">
             <div className={style.btn}>
                 <ExploreCourseBtn />
             </div> 
+            </Link>
     </div>
   );
 };

@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Image from 'next/image';
 import React from 'react';
 import ExploreCourseBtn from '../ExploreCourseBtn';
@@ -31,7 +32,8 @@ const VideoSection = ({ title, description, mainImg, secondImg, video, mainImgWi
                         <video src={mainImg} preload="auto" autoPlay muted loop playsInline="" webkit-playsinline="" x5-playsinline="" style={{ maxWidth: "100%", maxHeight: '100%' }}></video>
                     </div> :
                     // eslint-disable-next-line @next/next/no-img-element
-                    <img src={mainImg} alt='' width={`${mainImgWidth}`} height={`${mainImgHeight}`}  style={{marginRight:`${marginRight}`}}/>
+            
+                    <img className={style.imagess} src={mainImg} alt=''  height={`${mainImgHeight}`}  style={{marginRight:`${marginRight}`}}/>
                 }
             </div>
         </div >

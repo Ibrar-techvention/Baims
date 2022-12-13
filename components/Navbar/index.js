@@ -5,6 +5,7 @@ import React, { useState } from "react";
 import DropDown from "../DropDown";
 import style from "./navbar.module.css";
 import { useTranslation } from "next-i18next";
+import Link from "next/link";
 const Navbar = ({ scroll,setQuery }) => {
   const { t: translation } = useTranslation();
   const [showMediaIcons, setShowMediaIcons] = useState(false);
@@ -52,6 +53,7 @@ const Navbar = ({ scroll,setQuery }) => {
       }}
     >
       <div className={style.leftSide}>
+      <Link href="/">
         <div className={style.logo}>
           {scroll === 1000 ? (
             <Image src="/img/logo-black.svg" width={118} height={52} alt="" />
@@ -63,6 +65,7 @@ const Navbar = ({ scroll,setQuery }) => {
             <Image src="/img/logo.svg" width={118} height={52} alt="" />
           )}
         </div>
+        </Link>
       </div>
       <div
         className={style.humburgerIcon}
@@ -81,6 +84,7 @@ const Navbar = ({ scroll,setQuery }) => {
       <div className={style.middleSide}>
         <div className={style.explore}>{translation("explore")}</div>
      
+    
         <div className={style.searchBar}>
           <Image src="/img/search-icon.png" alt="" width={30} height={30} />
           <input
@@ -92,13 +96,13 @@ const Navbar = ({ scroll,setQuery }) => {
           />
        
         </div>
-        
+       
         <div className={style.rightSide}>
           <DropDown
             // selected={language[0]}
             languages={language}
             setSelected={handleChange}
-            style={{ width: "100%", top: "20px", left: "0px" }}
+            style={{ width: "100%", top: "20px", left: "0px", cursor:"pointer" }}
             justifybtn="flex-start"
             component={
               <div className={style.languageSelector}>

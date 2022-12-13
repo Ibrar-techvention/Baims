@@ -58,7 +58,7 @@ const handleGrade=(value)=>{
             setSelected={handleSchool}
             style={{ width: "100%", top: "80px", borderRadius:"10px", left: "0px" }}
             justifybtn="flex-start"
-            dataKey={"basic_statistics.countries"}
+            dataKey={"level"}
 
             component={
               <div className={style.stages}>
@@ -154,6 +154,7 @@ const handleGrade=(value)=>{
                 />
               </div>
             </div>
+            <Link href={'./home'}>
             <div
               className={style.loginBtn}
               style={{
@@ -163,6 +164,7 @@ const handleGrade=(value)=>{
             >
               {translation("search")}
             </div>
+            </Link>
           </div>
         </div>
       </div>

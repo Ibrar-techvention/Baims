@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 // import Image from "next/image";
 import style from "./slogan.module.css";
 import { useTranslation } from "next-i18next";
@@ -33,8 +34,8 @@ const Subjects = () => {
     };
   return( 
     <> 
-           <h2 className={style.heading}></h2>
-           <div style={{display:'flex',justifyContent:'space-between',margin:'0rem 3rem 0rem 3rem'}}>
+           <h2 className={style.heading}>{translation("exploreCourses")}</h2>
+           <div style={{display:'flex',justifyContent:'space-between',margin:'0rem 5.5rem 0rem 0rem'}}>
         <div></div>
         <div className={style.buttons}>
           <div className={style.prevBtn} onClick={prevButton}>

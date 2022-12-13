@@ -1,36 +1,66 @@
 .VideoSectionContainer{
-display: flex;
-width: 90%;
-margin-left: auto;
-margin-right: auto;
-align-items: center;
-justify-content: space-between;
-padding-top: 100px;
-}
-
-.leftSection{
     display: flex;
-    flex-direction: column;
-    max-width:600px;
-}
-
-.heading{
-    font-size: 2.2rem;
-    font-family: "Poppins";
-    font-weight: 700;
-    margin-bottom: 20px;
-
-}
-.body{
-    font-size: 1.2rem;
-    font-family: "Poppins";
-    line-height: 25px;
-    margin-bottom: 30px;
-    max-width: 75%;
-}
-@media only screen and (max-width: 600px){
-    .VideoSectionContainer{
-        flex-direction: column;
-        justify-content: center;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 100px;
     }
-}
+    
+    .leftSection{
+        display: flex;
+        flex-direction: column;
+        max-width:600px;
+        /* order: 2; */
+    }
+    
+    .heading{
+        font-size: 2.2rem;
+        font-family: "Poppins";
+        font-weight: 700;
+        margin-bottom: 20px;
+    
+    }
+    .body{
+        font-size: 1.2rem;
+        font-family: "Poppins";
+        line-height: 25px;
+        margin-bottom: 30px;
+        max-width: 75%;
+    }
+    @media only screen and (max-width: 600px){
+        .VideoSectionContainer{
+            flex-direction: column;
+            justify-content: center;
+        }
+        .leftSection{
+            order: 2;
+        }
+        .body{
+            font-size: 1rem;
+            font-family: "Poppins";
+            line-height: 25px;
+            margin-bottom: 30px;
+            max-width: 100%;
+            padding-left: 0.2rem;
+            padding-right: 0.2rem;
+        }
+        .leftSection{
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+          
+        }
+        .imagess{
+            width:100%;
+            height: 100% ;
+        }
+        .heading{
+           text-align: center;
+           font-size: 2rem;
+        }
+        .VideoSectionContainer{
+            padding-top: 0px;
+        }
+    }

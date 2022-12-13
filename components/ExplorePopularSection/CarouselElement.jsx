@@ -5,7 +5,7 @@ import style from './CarouselElement.module.css';
 const CarouselElement = ({data}) => {
     return (
         <div className={style.CarouselElementContainer} style={{
-            background: 'url("/img/carousel-img.jpeg")',
+            background: 'url("/img/backgroundO.jpg")',
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat',
             backgroundSize: 'cover',

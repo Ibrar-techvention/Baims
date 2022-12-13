@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Image from 'next/image';
 import Navbar from '../Navbar'
 import style from "./slogan.module.css";
